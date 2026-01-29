@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 REM ビルドします
 REM --collect-all markitdown はサブモジュールやデータを取りこぼしにくくします
-pyinstaller --noconfirm --clean --onefile --windowed ^
+pyinstaller --noconfirm --clean --onedir --windowed ^
   --name MarkItDownGUI ^
   --collect-all markitdown ^
   --copy-metadata markitdown ^
