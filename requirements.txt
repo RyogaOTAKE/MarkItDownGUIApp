@@ -1,3 +1,4 @@
 markitdown[all]
 pyinstaller
 tkinterdnd2
+sv_ttk
